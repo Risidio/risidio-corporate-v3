@@ -89,7 +89,7 @@ return (
                 key={i} 
                 className="mb-5 hover:bg-white hover:rounded-lg hover:shadow-lg p-5">
                 <Link href={`articles/${slug}`}>
-                  <Box className="relative w-full md:h-[220px] sm:h-[200px] group">
+                  <Box className="relative w-full lg:h-[210px] sm:h-[180px] group">
                      <div className="sm:aspect-square w-full h-full">
                          <Img
                               src={item.primary.article_image.url}
