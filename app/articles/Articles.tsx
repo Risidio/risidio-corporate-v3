@@ -113,7 +113,7 @@ return (
                             <FaRegClock/>
                             <RichText
                                field={item.primary.article_read_time}
-                               className="text-[.9rem] ml-2"
+                               className="text-[.8rem] ml-2"
                              />m
                         </div>
                       </Box>
