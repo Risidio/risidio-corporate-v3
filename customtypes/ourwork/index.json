@@ -1,0 +1,22 @@
+{
+  "id": "ourwork",
+  "label": "our work",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "ourwork_section": { "type": "SharedSlice" },
+            "articles": { "type": "SharedSlice" },
+            "hero_v2": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  },
+  "format": "custom"
+}

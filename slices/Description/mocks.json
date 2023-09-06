@@ -1,0 +1,84 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Dream"
+            }
+          }
+        ]
+      },
+      "description1": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ad excepteur ea quis sint sint ad nostrud occaecat aliquip nostrud deserunt."
+            }
+          }
+        ]
+      },
+      "subtitle": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Labore nisi amet proident. Duis adipisicing officia aliqua Lorem. Do nostrud velit quis voluptate est eu qui veniam anim."
+            }
+          }
+        ]
+      },
+      "description2": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Occaecat ex laborum in est mollit pariatur esse Lorem velit in dolor voluptate. Velit irure sunt irure enim laborum veniam excepteur adipisicing."
+            }
+          }
+        ]
+      },
+      "description3": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Deserunt ipsum ex cillum id do aute nostrud officia aute ut. Sint velit reprehenderit exercitation consectetur eiusmod laborum labore qui laborum excepteur id eiusmod."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Qui non ipsum voluptate in id culpa enim et reprehenderit laboris mollit mollit aute sint magna. Aliquip non tempor Lorem officia adipisicing dolor tempor nisi."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

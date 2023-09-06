@@ -1,0 +1,124 @@
+{
+  "id": "articles",
+  "type": "SharedSlice",
+  "name": "Articles",
+  "description": "Articles",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Articles",
+      "primary": {
+        "article_image": {
+          "type": "Image",
+          "config": {
+            "label": "Article Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "article_date": {
+          "type": "Date",
+          "config": { "label": "Article Date", "placeholder": "" }
+        },
+        "article_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading1"
+          }
+        },
+        "article_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "article_link": {
+          "type": "Link",
+          "config": {
+            "label": "Article Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "article_summary": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Summary",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "article_category": {
+          "type": "Select",
+          "config": {
+            "label": "Article Category",
+            "placeholder": "",
+            "options": ["Web3", "NFT", "Cryptocurrency"]
+          }
+        },
+        "slug": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Slug",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "article_author": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Author",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "article_read_time": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Article Read Time",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,heading1"
+          }
+        },
+        "desctiption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Desctiption",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": { "label": "Image", "constraint": {}, "thumbnails": [] }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

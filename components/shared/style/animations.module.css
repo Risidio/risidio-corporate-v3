@@ -1,0 +1,109 @@
+/* styles.css */
+
+@keyframes slideDown {
+    0% {
+      height: 0%;
+      opacity: 1;
+    }
+    50%, 70% {
+      height: 50%;
+      opacity: 1;
+    }
+    100% {
+      height: 100%;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pauseAndSlide {
+    0% {
+      opacity: 0;
+      transform: translateY(-800%);
+    }
+    50%, 70% {
+      opacity: 1;
+      top: 50%;
+    }
+    100% {
+      opacity: 1;
+      top: calc(100% - 80px);
+    }
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* isOpenMenu = false */
+  
+  
+  @keyframes slideUp {
+    0% {
+      height: 100%;
+      opacity: 1;
+    }
+    100% {
+      height: 0;
+      opacity: 0;
+    }
+  }
+  
+  .menuContainer {
+    animation: slideDown 1s ease-in forwards;
+  }
+  
+  
+  .slideUp {
+    animation-name: slideUp;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+  }
+  
+  .menuItem {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .bottomContainerWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bottomContainer {
+    animation: pauseAndSlide 0.400s ease-in forwards;
+    position: relative;
+    transform: translateY(100%);
+    /* top: 50%; */
+    animation-fill-mode: both;
+    animation-delay: 0.60s;
+  }
+  
+  /* .menuContainer.pause .bottomContainer {
+    animation-name: slideFromHalfway;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    } */
+  
+    .li_selected {
+      text-decoration: underline;
+      text-underline-offset: 5px; 
+      text-decoration-thickness: 2px; 
+    }
+  
+    

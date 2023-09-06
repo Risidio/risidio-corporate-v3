@@ -1,0 +1,110 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Jungle"
+            }
+          }
+        ]
+      },
+      "item1": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Nisi do eiusmod nostrud et fugiat cupidatat aliqua consectetur sint."
+            }
+          }
+        ]
+      },
+      "itemlink1": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://prismic.io"
+        }
+      },
+      "item2": {
+        "__TYPE__": "FieldContent",
+        "value": "favorite",
+        "type": "Text"
+      },
+      "link2": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://twitter.com"
+        }
+      },
+      "item3": {
+        "__TYPE__": "FieldContent",
+        "value": "growth",
+        "type": "Text"
+      },
+      "link3": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://twitter.com"
+        }
+      },
+      "item4": {
+        "__TYPE__": "FieldContent",
+        "value": "exactly",
+        "type": "Text"
+      },
+      "link4": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "http://twitter.com"
+        }
+      },
+      "title2": {
+        "__TYPE__": "FieldContent",
+        "value": "lungs",
+        "type": "Text"
+      },
+      "title3": {
+        "__TYPE__": "FieldContent",
+        "value": "machine",
+        "type": "Text"
+      },
+      "title1": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Cillum incididunt minim tempor reprehenderit exercitation deserunt nulla quis. Nulla laboris consectetur exercitation sunt aliqua sint cupidatat."
+            }
+          }
+        ]
+      },
+      "subtitle": {
+        "__TYPE__": "FieldContent",
+        "value": "about",
+        "type": "Text"
+      },
+      "content": {
+        "__TYPE__": "FieldContent",
+        "value": "upon",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

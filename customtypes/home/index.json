@@ -1,0 +1,27 @@
+{
+  "id": "home",
+  "label": "HomeScreen",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "section_slice": { "type": "SharedSlice" },
+            "hero_slice": { "type": "SharedSlice" },
+            "section2": { "type": "SharedSlice" },
+            "footer_section": { "type": "SharedSlice" },
+            "discover_section": { "type": "SharedSlice" },
+            "gallery": { "type": "SharedSlice" },
+            "section3": { "type": "SharedSlice" },
+            "section4": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  },
+  "format": "custom"
+}

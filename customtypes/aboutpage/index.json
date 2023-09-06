@@ -1,0 +1,25 @@
+{
+  "id": "aboutpage",
+  "label": "AboutPage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer_section": { "type": "SharedSlice" },
+            "hero_v2": { "type": "SharedSlice" },
+            "stackedgallery": { "type": "SharedSlice" },
+            "team_gallery": { "type": "SharedSlice" },
+            "description": { "type": "SharedSlice" },
+            "discover_section": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  },
+  "format": "custom"
+}

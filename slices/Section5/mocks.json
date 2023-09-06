@@ -1,0 +1,122 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Since"
+            }
+          }
+        ]
+      },
+      "title2": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Cillum excepteur nostrud eiusmod do culpa qui."
+            }
+          }
+        ]
+      },
+      "title3": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Nisi amet excepteur ipsum nisi voluptate ut amet magna aliquip ex in non in quis incididunt. Sint quis do occaecat pariatur non excepteur cillum officia cillum. Do elit aliquip ea anim magna quis magna ad exercitation culpa dolore cupidatat tempor cupidatat."
+            }
+          }
+        ]
+      },
+      "subtitle": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Non incididunt in nostrud incididunt in esse magna aliquip minim aliquip ex Lorem aliquip. Dolor officia fugiat labore deserunt eu in proident nisi reprehenderit. Irure culpa qui proident."
+            }
+          }
+        ]
+      },
+      "comment": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Commodo labore veniam irure aute ut nulla aute et ex. Ea ipsum cupidatat sit elit enim voluptate magna reprehenderit ut. Magna ullamco commodo aliquip velit proident laborum commodo laboris et quis enim qui."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "icon",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+                "width": 6000,
+                "height": 4000
+              },
+              "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+              "width": 6000,
+              "height": 4000,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Qui dolor laboris id consequat nulla ea dolore mollit ipsum ex aute cillum do cillum. Minim cillum mollit do nisi elit exercitation. Dolore deserunt sunt sunt id consequat culpa eiusmod Lorem Lorem."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Culpa elit nulla commodo veniam sit consectetur. Proident labore culpa id sunt irure voluptate in in esse."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]
