@@ -8,7 +8,6 @@ import Head from 'next/head';
 export default async function OurWork() {
   const client = createClient();
   const page = await client.getSingle('ourwork');
-
   return (
     <>
       <Head>
