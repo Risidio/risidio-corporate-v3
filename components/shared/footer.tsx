@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -125,7 +125,7 @@ export default function Footer() {
                 <span>Contact</span>
               </Text>
               <Text className="text-white mb-1 font-medium w-36 text-xs">
-                Kemp House 152 - 160 City Road, London EC1V 2NX
+                124 City Road, London EC1V 2NX
               </Text>
               <Text
                 onClick={() => {
