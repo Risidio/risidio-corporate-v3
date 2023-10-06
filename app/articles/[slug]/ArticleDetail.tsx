@@ -3,11 +3,11 @@ import { createClient } from '@/prismicio';
 import { Box } from '@mui/material';
 import { PrismicLink } from '@prismicio/react';
 
-interface ArcicleDetailProps {
+interface ArticleDetailProps {
   slug: string | string[];
 }
 
-export default async function ArcicleDetail({slug}: ArcicleDetailProps) {
+export default async function ArticleDetail({slug}: ArticleDetailProps) {
   const client = createClient();
   const page = await client.getSingle("articles");
   let articles = page.data.slices ?? [];
