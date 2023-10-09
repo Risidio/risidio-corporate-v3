@@ -92,6 +92,12 @@ export default function Footer() {
               >
                 Sustainability
               </Link>
+              <Link
+                href="/articles"
+                className="text-white font-medium mb-1 text-xs"
+              >
+                Articles
+              </Link>
             </Box>
             <Box className="sm:flex flex-col text-white mb-8 hidden">
               <span className="font-light text-slate-400 mb-3 text-base">
