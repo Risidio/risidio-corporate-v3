@@ -22,24 +22,26 @@ const OurworkSection = ({ slice }) => (
               field={item.project_title}
               className="text-left text-[28px] font-extralight text-black mt-3 box-border block"
             />
-            <RichText
-              field={item.project_description}
-              className="text-[11px]"
-            />
-            {item.project_link.url ? (
-              <Box className="mt-6">
-                <PrismicLink
-                  field={item.project_link}
-                  className="text-[#f9b807] text-[11px] font-bold"
-                >
-                  Find Out More
-                </PrismicLink>
-              </Box>
-            ) : (
-              <Box className="text-[#f9b807] text-[11px] font-bold mt-6">
-                Coming Soon
-              </Box>
-            )}
+              <RichText
+                field={item.project_description}
+                className="text-[11px] max-h-7"
+              />
+            <Box className='pt-3 mt-8'>
+              {item.project_link.url ? (
+                <Box>
+                  <PrismicLink
+                    field={item.project_link}
+                    className="text-[#f9b807] text-[11px] font-bold"
+                  >
+                    Find Out More
+                  </PrismicLink>
+                </Box>
+              ) : (
+                <Box className="text-[#f9b807] text-[11px] font-bold pt-1">
+                  Coming Soon
+                </Box>
+              )}
+            </Box>
           </Box>
         ))}
       </Box>
