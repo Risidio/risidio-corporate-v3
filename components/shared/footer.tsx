@@ -59,7 +59,7 @@ export default function Footer() {
         </Box>
         <Box className="bg-black sm:pl-0 pb-32 sm:pb-1 pt-14">
           <Box className="flex flex-col justify-center items-center  sm:flex-row m-auto sm:justify-between max-w-[1400px] sm:pr-9">
-            <Box className=" h-20 lg:h-max-content md:flex sm:pl-3">
+            <Box className="md:flex sm:pl-3 sm:flex flex-col">
               <Link href="/">
                 <Image
                   src="/img/logoWhite.svg"
@@ -69,7 +69,7 @@ export default function Footer() {
                 />
               </Link>
             </Box>
-            <Box className="sm:flex flex-col mb-8 hidden">
+            <Box className="sm:flex flex-col mb-3 hidden">
               <Text className="font-light  text-slate-400 text-base mb-3">
                 Sitemap
               </Text>
@@ -91,6 +91,12 @@ export default function Footer() {
                 className="text-white font-medium mb-1 text-xs"
               >
                 Sustainability
+              </Link>
+              <Link
+                href="/articles"
+                className="text-white font-medium text-xs"
+              >
+                Articles
               </Link>
             </Box>
             <Box className="sm:flex flex-col text-white mb-8 hidden">
@@ -120,8 +126,8 @@ export default function Footer() {
                 This is #1
               </Link>
             </Box>
-            <Box className="sm:flex flex-col hidden">
-              <Text className="font-light text-slate-400  text-base mb-3">
+            <Box className="sm:flex flex-col mb-9 hidden">
+              <Text className="font-light text-slate-400 text-base mb-3">
                 <span>Contact</span>
               </Text>
               <Text className="text-white mb-1 font-medium w-36 text-xs">
@@ -157,9 +163,34 @@ export default function Footer() {
             <Text className="text-white text-xs">
               © 2023 Risidio Ltd. All right reserved.
             </Text>
-            <Text className="text-white text-xs">Privacy Policy</Text>
           </Box>
-        </Box>
+        </Box>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </Box>
     </section>
   );

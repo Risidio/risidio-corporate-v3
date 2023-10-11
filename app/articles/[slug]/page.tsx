@@ -1,11 +1,11 @@
 "use client"
 import { useParams } from "next/navigation";
-import ArcicleDetail from "./ArticleDetail";
+import ArticleDetail from "./ArticleDetail";
 
 export default function Detail() {
   const {slug} = useParams();
  
   return (
-      <ArcicleDetail slug={slug}/>
+      <ArticleDetail slug={slug}/>
   );
 }
