@@ -69,7 +69,7 @@ export default function Footer() {
                 />
               </Link>
             </Box>
-            <Box className="sm:flex flex-col mb-3 hidden">
+            <Box className="sm:flex flex-col mb-1 hidden">
               <Text className="font-light  text-slate-400 text-base mb-3">
                 Sitemap
               </Text>
@@ -99,7 +99,7 @@ export default function Footer() {
                 Articles
               </Link>
             </Box>
-            <Box className="sm:flex flex-col text-white mb-8 hidden">
+            <Box className="sm:flex flex-col mt-3 text-white hidden">
               <span className="font-light text-slate-400 mb-3 text-base">
                 Projects
               </span>
@@ -125,8 +125,25 @@ export default function Footer() {
               >
                 This is #1
               </Link>
+
+              <Link
+                target="_blank"
+                href=""
+                className="text-white font-medium mb-1 text-xs"
+              >
+                Prom
+              </Link>
+
+              <Link
+                target="_blank"
+                href=""
+                className="text-white font-medium mb-1 text-xs"
+              >
+                The Studio
+              </Link>
             </Box>
-            <Box className="sm:flex flex-col mb-9 hidden">
+
+            <Box className="sm:flex flex-col mb-8 hidden">
               <Text className="font-light text-slate-400 text-base mb-3">
                 <span>Contact</span>
               </Text>
