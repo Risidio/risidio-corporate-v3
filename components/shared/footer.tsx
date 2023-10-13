@@ -113,11 +113,12 @@ export default function Footer() {
               </Link>
               <Link
                 target="_blank"
-                href="https://www.indigenft.io/"
+                href="https://risidio-ordinals.netlify.app"
                 className="text-white font-medium mb-1 text-xs"
               >
-                IndigeNFT
+                Ordinals
               </Link>
+              
               <Link
                 target="_blank"
                 href="https://thisisnumberone.com/"
@@ -133,14 +134,14 @@ export default function Footer() {
               >
                 Prom
               </Link>
-
               <Link
                 target="_blank"
-                href=""
+                href="https://www.indigenft.io/"
                 className="text-white font-medium mb-1 text-xs"
               >
-                The Studio
+                IndigeNFT
               </Link>
+              
             </Box>
 
             <Box className="sm:flex flex-col mb-8 hidden">
